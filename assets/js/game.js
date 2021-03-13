@@ -2,6 +2,10 @@ var playerName = window.prompt("What is your robot's name?");
 var playerHealth = 100;
 var playerAttack = 10;
 var playerMoney = 10;
+var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
+
+console.log(enemyNames);
+console.log(enemyNames.length);
 
 console.log(playerName);
 console.log(playerHealth, playerAttack, playerMoney);
@@ -68,4 +72,4 @@ var fight = function() {
 };
 
 // run fight function to start game
-fight();
+//fight();
